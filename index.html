@@ -10,39 +10,107 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lexend:wght@100;300;400;600&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6409cbf56e.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Sarah's Portfolio:</h1>
-        <h2>hey mom, look at the things I made!</h2>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        <li class=nav-item"><a href="https://www.linkedin.com/in/sloutrel" target="_blank"><i
+                                    class="fab fa-linkedin nav-link"></i></a>
+                        </li>
+                        <li class=nav-item"><a href="https://github.com/sloutrel" target="_blank"><i
+                                    class="fab fa-github nav-link"></i></a></li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-8 pull-right text-right">
+                    <ul>
 
-        <div class="row">
-
-            <div class="card mx-auto" style="width: 18rem;">
-                <img src="https://www.cruiseplanners.com/static/imago/5556/magic_banner-1000x2821.jpg"
-                    class="card-img-top" alt="magic the gathering img">
-                <div class="card-body">
-                    <h5 class="card-title">Magic the Gathering Score Keeper</h5>
-                    <p class="card-text">Choose your life count and keep score easily without that pesky 20 sided
-                        die.</p>
-                    <a href="#" class="btn mtg">Go keep some scores</a>
+                    </ul>
                 </div>
 
             </div>
+        </nav>
+        <!-- <nav class="nav">
+            <div class="col-xs-8 pull-right text-right">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/sloutrel" target="_blank"><i
+                                class="fab fa-linkedin"></i>LinkedIn</a>
+                    </li>
+                    <li><a href="https://github.com/sloutrel"><i class="fab fa-github"></i>GitHub</a></li>
+
+                </ul>
+        </nav> -->
+        <h1>Sarah's Portfolio:</h1>
+        <h2>hey mom, look at the things I made!</h2>
+
     </header>
-    <div class="container-fluid">
-        <p>Hi! I'm Sarah. </p>
-        <p>I started my coding journey when I was in elementary school learning basic html (thanks Dad!) but
-            that's pretty much where it stopped until 2020 when I pushed myself to pick it back up again. I still have a
-            long way to go. This is my victory page where I put all the cool (and sometimes not so cool) things I've
-            made.
-        </p>
+    <div class="row-cols1 intro">
+        <div class="col-10 mx-auto">
+            <div class="container-fluid">
+                <p>Hi! I'm Sarah. </p><br>
+                <p>I started my coding journey when I was in elementary school learning basic html (thanks Dad!) but
+                    that's pretty much where it stopped until 2020 when I pushed myself to pick it back up again. I
+                    still
+                    have a
+                    long way to go. This is my victory page where I put all the cool (and sometimes not so cool) things
+                    I've
+                    made.
+                </p>
+            </div>
+        </div>
     </div>
-    <script src="app.js"></script>
+    <div class="container-fluid content-row cardrow">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="https://www.cruiseplanners.com/static/imago/5556/magic_banner-1000x2821.jpg"
+                        class="card-img-top" alt="magic the gathering img">
+                    <div class="card-body">
+                        <h5 class="card-title">Magic the Gathering Score Keeper</h5>
+                        <p class="card-text">Choose your life count and keep score easily without that pesky 20
+                            sided
+                            die.</p>
+                        <div class="card-footer">
+                            <a href="#" class="btn card-btn">Go keep some scores</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mx-auto " style="width: 18rem;">
+                    <img src="https://miro.medium.com/max/6000/1*9KGea1STTglY4ZqVHvTAfg.png" class="card-img-top"
+                        alt="random img">
+                    <div class="card-body">
+                        <h5 class="card-title">Styles Generator</h5><br>
+                        <p class="card-text">Don't know how to pair styles? Neither does this app. Generate random
+                            style combos here.</p>
+                        <div class="card-footer">
+                            <a href="#" class="btn card-btn">Randomize</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="app.js"></script>
 </body>
 
 </html>
