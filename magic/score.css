@@ -38,9 +38,13 @@ h1{
 }
 .victory{
     color: #ce170a;
-    text-shadow: 4px 4px 8px #cf7623
+    text-shadow: 4px 4px 8px #cf7623;
 }
 .defeat{
     color: #270ace;
-    text-shadow: 4px 4px 8px #e2d845   
+    text-shadow: 4px 4px 8px #e2d845;   
+    
+}
+#p2-status, #p1-status{
+    font-size : clamp(1rem, 5vw, 5rem);
 }
