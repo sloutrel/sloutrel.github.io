@@ -1,0 +1,46 @@
+h1, div, #difficulty{
+    text-align: center;
+    font-family: 'Spectral SC', 'serif';
+}
+h1{
+    font-size:2.5em;
+}
+
+#score-display{
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+#status{
+    font-weight: 700;
+    font-size: 2em;
+    padding-top: .5em;
+    text-align: center;
+    
+}
+#life-buttons{
+    padding-top: 1em;
+}
+
+#reset{
+    padding: 4.5em;
+    
+}
+
+.versus{
+    font-size: .65em;
+    padding: 0em .55em;
+}
+#reset-btn{
+    background-color: #cf7623;
+    color: black;
+}
+.victory{
+    color: #ce170a;
+    text-shadow: 4px 4px 8px #cf7623
+}
+.defeat{
+    color: #270ace;
+    text-shadow: 4px 4px 8px #e2d845   
+}
