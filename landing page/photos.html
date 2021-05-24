@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6409cbf56e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="app.css" />
+
+    <title>Museum of Cats Photos</title>
+  </head>
+
+  <body>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="https://sloutrel.github.io/" target="_blank" class="navbar-brand"
+        >CATS
+        <p class="sub-brand">by sloutrel</p></a
+      >
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria-label="toggle navigation"><span class="icon"><i class="fas fa-bars fa-lg menu-icon"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://sloutrel.github.io/" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">PHOTOS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<body>
+    <section class='photo-gallery'>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/kitten-white.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/kittens-pink.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+        
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/kittens-white.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/black-city.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/white-backpack.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+        
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/orange-blue.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/orange-orange.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/tabby-white.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+        
+            <div class="col-xs-12 col-md-4 blurb mb-5 mb-md-0">
+                <img src="imgs/orange-pink.jpg" class='img-fluid' alt='responsive cat image'>
+            </div>
+        </div>
+    </section>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
+</body>
+
+</html>
