@@ -81,7 +81,7 @@ header {
 .card-title{
     font-family: 'Julius Sans One', sans-serif;
     padding: 1rem;
-  text-shadow: 1px 1px 1px rgb(56, 60, 77); 
+    text-shadow: 1px 1px 1px rgb(56, 60, 77); 
 }
 
 .card-text{
@@ -91,8 +91,20 @@ header {
 
 .card-btn{
     background-color: rgb(7, 99, 116);
-    color: white;
+    color: #FFF;
     box-shadow: .5em .5em .5em rgb(56, 60, 77);
+}
+.card-btn:hover{
+    background-color: #c3942c;
+    color: #FFF;
+    transition: all .35s ease-in-out;
+}
+
+.card-btn:focus, .card-btn:focus::after, .card-btn:focus::before{
+background-color: rgb(7, 99, 116);
+    color: #FFF;
+    box-shadow: .5em .5em .5em rgb(56, 60, 77);
+    border: none;
 }
 
 p{
@@ -109,4 +121,21 @@ p{
 }
 p.intro{
     margin-left: 2em;
+}
+.list-group{
+    margin-left: 1em;
+}
+
+.learning-categories{
+    display: inline;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    padding-right: 1em;
+    margin-left: 1em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding-bottom: 2em;
+    
 }

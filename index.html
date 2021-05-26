@@ -13,24 +13,18 @@
     <script src="https://kit.fontawesome.com/6409cbf56e.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar navbar-expand sticky-top navbar-light bg-light" id="mainNavbar">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="about-me.html">About Me</a>
                         <li class=nav-item"><a href="https://www.linkedin.com/in/sloutrel" target="_blank"><i
                                     class="fab fa-linkedin nav-link"></i></a>
                         </li>
@@ -39,20 +33,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xs-8 pull-right text-right">
-                    <ul>
-
-                    </ul>
-                </div>
-
             </div>
         </nav>
-
+    <header>
         <h1>Sarah's Portfolio:</h1>
         <h2>hey mom, look at the things I made!</h2>
 
     </header>
-    <div class="row-cols1 intro">
+    <main>
         <div class="col-10 mx-auto">
             <div class="container-fluid">
                 <p>Hi! I'm Sarah. </p><br>
@@ -64,12 +52,11 @@
                     I've
                     made.
                 </p>
-            </div>
         </div>
     </div>
     <div class="container-fluid content-row cardrow">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
+        <div class="row">
+            <div class="col-sm">
                 <div class="card mx-auto" style="width: 18rem;">
                     <img src="https://www.cruiseplanners.com/static/imago/5556/magic_banner-1000x2821.jpg"
                         class="card-img-top" alt="magic the gathering img">
@@ -85,7 +72,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-sm">
                 <div class="card mx-auto " style="width: 18rem;">
                     <img src="https://miro.medium.com/max/6000/1*9KGea1STTglY4ZqVHvTAfg.png" class="card-img-top"
                         alt="random img">
@@ -100,10 +87,47 @@
                     </div>
                 </div>
             </div>
+            <div class="col-sm">
+                <div class="card mx-auto " style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1442291928580-fb5d0856a8f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80" class="card-img-top"
+                        alt="random img">
+                    <div class="card-body">
+                        <h5 class="card-title">Museum Of Cats</h5><br>
+                        <p class="card-text">Come look at some meowsterpieces at the meowseum.</p>
+                        <div class="card-footer">
+                            <a href="https://sloutrel.github.io/museum-of-cats" target="_blank"
+                                class="btn card-btn ">Meow</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-
+</main>
         <script src="app.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
+      ></script>
+        <script>
+            $(function () {
+              $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+              });
+            });
+          </script>
 </body>
 
 </html>

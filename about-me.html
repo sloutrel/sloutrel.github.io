@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lexend:wght@100;300;400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6409cbf56e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about-me.html">About Me</a>
+                        <li class=nav-item"><a href="https://www.linkedin.com/in/sloutrel" target="_blank"><i
+                                    class="fab fa-linkedin nav-link"></i></a>
+                        </li>
+                        <li class=nav-item"><a href="https://github.com/sloutrel" target="_blank"><i
+                                    class="fab fa-github nav-link"></i></a></li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-8 pull-right text-right">
+                    <ul>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+<header>
+        <h1>Sarah's Portfolio:</h1>
+        <h2>Look, I learned some things!</h2>
+
+    </header>
+    <div class="container">
+    <div class="row align-items-start">
+        <div class="col-4 col-md-3 mx-auto">
+            <h3 class="learning-categories text-center">Languages</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Javascript</li>
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">Responsive CSS</li>
+            </ul>
+        </div>
+        <div class="col-4 col-md-3 mx-auto">
+            <h3 class="learning-categories text-center">Frameworks</h3>
+             <ul class="list-group">
+                <li class="list-group-item">Express</li>
+                <li class="list-group-item">Bootstrap</li>  
+            </ul>
+        </div>
+        <div class="col-4 col-md-3 mx-auto">
+            <h3 class="learning-categories text-center">Other tools</h3>
+            <ul class="list-group">  
+                <li class="list-group-item">Node.js & npm</li>
+                <li class="list-group-item">Postman</li>
+                <li class="list-group-item">Axios</li>
+                <li class="list-group-item">VS Code</li>
+                <li class="list-group-item">EJS</li>
+                <li class="list-group-item">Github</li>
+            </ul>
+        </div>
+        <div class="col-4-lg col-md-3 mx-auto">
+            <h3 class="learning-categories text-center">Currently learning</h3>
+            <ul class="list-group"> 
+                <li class="list-group-item">Mongo DB</li>
+                <li class="list-group-item">React</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"
+></script>
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"
+></script>
+<script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
+</body>
+
+</html>
