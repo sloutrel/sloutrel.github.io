@@ -1,6 +1,6 @@
 
 body {
-  background: #f3daf0;
+  background: #f1cded;
   font-family: "Nunito", sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 .blurb p {
-  color: #f498b8;
+  color: #df749a;
   font-weight: 100;
   font-size: 1.125rem;
   line-height: 2;
@@ -21,7 +21,10 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
+.text-content{
+  margin-top: 6rem;
+  text-align: center;
+}
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
@@ -32,7 +35,7 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-  color: #ea1c2c;
+  color: #d40617;
 }
 
 #mainNavbar .navbar-brand {
@@ -70,7 +73,7 @@ body {
   margin-top: -0.5em;
 }
 .icon {
-  color: #e2303f;
+  color: #d40617;
 }
 
 .navbar-toggler:focus,
@@ -85,3 +88,6 @@ body {
     margin-top: 4rem;
 }
 
+.museum{
+  color: #d40617;
+}
