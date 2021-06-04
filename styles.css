@@ -75,7 +75,7 @@ header {
     text-align: center;
     margin: 2rem;
     box-shadow: .5em .5em .5em rgb(56, 60, 77);
-    
+    /* min-height: 21rem; */
 }
 
 .card-title{
@@ -126,7 +126,7 @@ p.intro{
     margin-left: 1em;
 }
 
-.learning-categories{
+.learning-categories, .trophies{
     display: inline;
     text-align: center;
     align-self: center;
@@ -138,4 +138,20 @@ p.intro{
     font-size: 1em;
     padding-bottom: 2em;
     
+}
+.trophies-container{
+    padding: 2rem 0 2rem 0;
+}
+.trophies-list{
+    padding-top: 1em;
+    line-height: 2em;
+}
+
+#h-portfolio{
+    padding-bottom: 1rem;
+}
+.icon{
+    transform: scale(.05);
+    display: inline-block;
+
 }
