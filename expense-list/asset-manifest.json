@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.css",
+    "main.js": "./static/js/expense-list.js",
+    "main.js.map": "./static/js/expense-list.js.map",
+    "index.html": "./index.html",
+    "static/css/main.css.map": "./static/css/main.css.map",
+    "static/js/expense-list.js.LICENSE.txt": "./static/js/expense-list.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/css/main.css",
+    "static/js/expense-list.js"
+  ]
+}
