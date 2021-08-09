@@ -1,0 +1,24 @@
+{
+  "name": "sloutrel.github.io",
+  "version": "1.0.0",
+  "description": "A portfolio of my work. Easily go to <a href=\"http://sloutrel.github.io\" target=\"_blank\">sloutrel.github.io</a> to view in browser and explore the front end.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sloutrel/sloutrel.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sloutrel/sloutrel.github.io/issues"
+  },
+  "homepage": "https://github.com/sloutrel/sloutrel.github.io#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
