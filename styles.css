@@ -95,7 +95,7 @@ header {
     box-shadow: .5em .5em .5em rgb(56, 60, 77);
 }
 .card-btn:hover{
-    background-color: #c3942c;
+    background-color: rgb(69, 128, 141);
     color: #FFF;
     transition: all .35s ease-in-out;
 }
