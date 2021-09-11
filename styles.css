@@ -41,56 +41,46 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 body{
-    font-family: 'Lexend', 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', 'Trebuchet MS', sans-serif;
     font-weight: 300;
 }
-
 h1{
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 700;
     font-size: 3em;
     padding-top: 1rem;
 }
-
 h2{
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
     padding-bottom: 1em;
-
 }
-    
 header {
     text-align: center;
 }
-
 .cardrow{
     display: block;
     width: auto;
+    padding-bottom: 5rem;
 }
-
 .card{
     text-align: center;
     margin: 2rem;
     box-shadow: .5em .5em .5em rgb(56, 60, 77);
-    /* min-height: 21rem; */
 }
-
 .card-title{
     font-family: 'Julius Sans One', sans-serif;
     padding: 1rem;
-    text-shadow: 1px 1px 1px rgb(56, 60, 77); 
+    text-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.4); 
 }
-
 .card-text{
-    font-weight: 100;
+    font-weight: 200;
     padding-bottom: 1.5rem;
 }
-
 .card-btn{
-    background-color: rgb(7, 99, 116);
+    background-color:rgb(98, 129, 134);
     color: #FFF;
     box-shadow: .5em .5em .5em rgb(56, 60, 77);
 }
@@ -99,18 +89,15 @@ header {
     color: #FFF;
     transition: all .35s ease-in-out;
 }
-
 .card-btn:focus, .card-btn:focus::after, .card-btn:focus::before{
-background-color: rgb(7, 99, 116);
+    background-color:rgb(98, 129, 134);
     color: #FFF;
     box-shadow: .5em .5em .5em rgb(56, 60, 77);
     border: none;
 }
-
 p{
     line-height: 1.5em;
 }
-
 .card-img-top {
     width: 100%;
     height: 5em;
@@ -125,8 +112,7 @@ p.intro{
 .list-group{
     margin-left: 1em;
 }
-
-.learning-categories, .trophies{
+.learning-categories{
     display: inline;
     text-align: center;
     align-self: center;
@@ -135,23 +121,42 @@ p.intro{
     margin-left: 1em;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
     padding-bottom: 2em;
-    
+    text-shadow: 0px .5px 1.5px rgba(0, 0, 0, 0.4); 
+}
+.trophies{
+    font-size: 1.25rem;
+    font-family: 'Julius Sans One', sans-serif;
 }
 .trophies-container{
-    padding: 2rem 0 2rem 0;
+    display: flexbox;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: rgba(98, 129, 134, 0.212);
 }
 .trophies-list{
     padding-top: 1em;
     line-height: 2em;
 }
-
 #h-portfolio{
     padding-bottom: 1rem;
 }
 .icon{
     transform: scale(.05);
     display: inline-block;
-
+}
+li .active{
+    border-bottom: 2px solid rgba(98, 129, 134, 0.5);
+}
+.footer{
+    background-color: rgba(98, 129, 134, 0.8);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+.container{
+    padding-bottom: 3rem;
 }
