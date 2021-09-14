@@ -168,17 +168,17 @@ p{
     padding-top: .75rem;
     animation: moveDown 1s ease;
 }
-.yelpcat__feat{
+.yelpcat{
     background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(../imgs/yelpcat.jpeg);
     background-size: cover;
     background-position: top;
 }
-.saplants__feat{
+.saplants{
     background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(../imgs/saplants.jpeg);
     background-size: cover;
     background-position: top;
 }
-.mtg__feat{
+.mtg{
     background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(../imgs/magic.jpg);
     background-size: cover;
     background-position: top;
