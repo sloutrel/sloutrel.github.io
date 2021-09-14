@@ -12,79 +12,90 @@
     <script src="https://kit.fontawesome.com/6409cbf56e.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/about.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand sticky-top navbar-light bg-light" id="mainNavbar">
+    <nav class="navbar navbar-expand sticky-top navbar-light" id="mainNavbar">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a></li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="about-me.html">About Me</a>
+                        <a class="nav-link active" aria-current="page" href="about-me.html">About Me</a></li>
+
                     <li class=nav-item"><a href="https://www.linkedin.com/in/sloutrel" target="_blank"><i
-                                class="fab fa-linkedin nav-link"></i></a>
+                                class="fab icon fa-linkedin nav-link"></i></a>
                     </li>
                     <li class=nav-item"><a href="https://github.com/sloutrel" target="_blank"><i
-                                class="fab fa-github nav-link"></i></a></li>
+                                class="fab icon fa-github nav-link"></i></a></li>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-<header id="h-portfolio">
-        <h1>Sarah's Portfolio:</h1>
-        <h2>Look, I learned some things!</h2>
+<header id="h-about">
+        <h1>About Me <span class="heading__sub">Look, I learned some things!</span></h1>
+        <p class="header__content">Hi, my name is Sarah! I started my coding journey when I was in elementary school learning basic HTML (thanks Dad!) but
+            that's pretty much where it stopped until 2020 when I pushed myself to pick it back up again. This is my victory page where I put all the cool (and sometimes not so cool) things I've made.</p>
 </header>
 <main>
-    <div class="container">
-    <div class="row align-items-start">
-        <div class="col-4 col-md-3 mx-auto">
-            <h3 class="learning-categories text-center">Languages</h3>
-            <ul class="list-group">
-                <li class="list-group-item">Javascript</li>
-                <li class="list-group-item">HTML5</li>
-                <li class="list-group-item">Responsive CSS3</li>
-            </ul>
-        </div>
-        <div class="col-4 col-md-3 mx-auto">
-            <h3 class="learning-categories text-center">Frameworks / Libraries</h3>
-             <ul class="list-group">
-                <li class="list-group-item">React</li>
-                <li class="list-group-item">Express & EJS</li>
-                <li class="list-group-item">Bootstrap</li>  
-                <li class="list-group-item">SASS</li>  
-                <li class="list-group-item">Node.js & npm</li>
-            </ul>
-        </div>
-        <div class="col-4 col-md-3 mx-auto">
-            <h3 class="learning-categories text-center">Other tools</h3>
-            <ul class="list-group">  
-                <li class="list-group-item">VS Code</li>
-                <li class="list-group-item">Mongo DB / Atlas & Mongoose</li>
-                <li class="list-group-item">Git & Github</li>
-                <li class="list-group-item">Sass</li>
-                <li class="list-group-item">Heroku</li>
-                <li class="list-group-item">Agile / Scrum</li>
-                <li class="list-group-item">Authentication - Hashing & Salting</li>
-            </ul>
-        </div>
-        <div class="col-4-lg col-md-3 mx-auto">
-            <h3 class="learning-categories text-center">Currently learning</h3>
-            <ul class="list-group"> 
-                <li class="list-group-item">Typescript</li>
-                <li class="list-group-item">Postman</li>
-            </ul>
+    <div class="container learning-container">
+        <div class="row align-items-start justify-content-center row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 learning-row">
+            <div class="col card">
+                <h3 class="learning-categories text-center card-title">Languages</h3>
+                <div class="card-body">
+                    <ul class="list">
+                        <li class="list-item"><a href="https://www.javascript.com/" target="__blank">Javascript</a></li>
+                        <li class="list-item"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">HTML5 </a></li>
+                        <li class="list-item"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">Responsive CSS3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col card">
+                <h3 class="learning-categories text-center card-title">Frameworks / Libraries</h3>
+                <div class="card-body">
+                    <ul class="list">
+                        <li class="list-item"><a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a></li>
+                        <li class="list-item"><a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">Express</a> & <a href="https://ejs.co/" target="_blank" rel="noopener noreferrer">EJS</a></li>
+                        <li class="list-item"><a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a></li>  
+                        <li class="list-item"><a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">SASS</a></li>  
+                        <li class="list-item"><a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js</a> & <a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">npm</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col card">
+                <h3 class="learning-categories text-center card-title">Other tools</h3>
+                <div class="card-body">
+                    <ul class="list">  
+                        <li class="list-item"><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VS Code</a></li>
+                        <li class="list-item"><a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">Mongo DB Atlas</a> & <a href="https://mongoosejs.com/" target="_blank" rel="noopener noreferrer">Mongoose</a></li>
+                        <li class="list-item"><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git</a> & <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a></li>
+                        <li class="list-item"><a href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer">Heroku</a></li>
+                        <li class="list-item"><a href="https://agilemanifesto.org/" target="_blank" rel="noopener noreferrer">Agile / Scrum</a></li>
+                        <li class="list-item"><a href="http://www.passportjs.org/docs/authenticate/" target="_blank" rel="noopener noreferrer">Auth - Hashing & Salting</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col card">
+                <h3 class="learning-categories text-center card-title">Currently learning</h3>
+                <div class="card-body">
+                    <ul class="list"> 
+                        <li class="list-item"><a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">Typescript</a></li>
+                        <li class="list-item"><a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer">Postman</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
-    <br>
+    
     <div class=" trophies-container">
         <h3 class="trophies">Also, check out my sweet trophies (more to come):</h3>
-        <ul class="list-group trophies-list">
+        <ul class="list trophies-list">
             <li><a href="https://www.udemy.com/certificate/UC-33e37863-dee4-4453-a44f-5105b368f1b5/" target ="_blank">Web Dev Bootcamp 2021 - Udemy</a>
             </li>
             <li><a href="https://www.freecodecamp.org/certification/fcc439a53fa-b2b5-441b-88e8-4a48047a48f5/javascript-algorithms-and-data-structures" target ="_blank">Javascript Algorithms and Data Stuctures - FCC</a>

@@ -8,54 +8,125 @@
     <title>Sarah's Portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@100;200;300;400;600&family=Quicksand:wght@300;400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6409cbf56e.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand sticky-top navbar-light bg-light" id="mainNavbar">
+    <nav class="navbar navbar-expand sticky-top navbar-light" id="mainNavbar">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a></li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about-me.html">About Me</a>
+                        <a class="nav-link" href="about-me.html">About Me</a></li>
+
                     <li class=nav-item"><a href="https://www.linkedin.com/in/sloutrel" target="_blank"><i
-                                class="fab fa-linkedin nav-link"></i></a>
+                                class="fab icon fa-linkedin nav-link"></i></a>
                     </li>
                     <li class=nav-item"><a href="https://github.com/sloutrel" target="_blank"><i
-                                class="fab fa-github nav-link"></i></a></li>
+                                class="fab icon fa-github nav-link"></i></a></li>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <header>
-        <h1>Sarah's Portfolio:</h1>
-        <h2>hey mom, look at the things I made!</h2>
+        <h1 class="heading__primary">Sarah Loutrel <span class="heading__primary--sub">Full-stack web developer</span></h1>
     </header>
     <main>
-        <div class="col-10 mx-auto">
-            <div class="container-fluid">
-                <p>Hi! I'm Sarah. </p><br>
-                <p>I started my coding journey when I was in elementary school learning basic html (thanks Dad!) but
-                    that's pretty much where it stopped until 2020 when I pushed myself to pick it back up again, but I
-                    still have a long way to go. This is my victory page where I put all the cool (and sometimes not so cool) things I've made.
-                </p>
+        <div class="cta container">
+            <div class="buttons row justify-content-center">
+                <div class="button btn--main col-md-4"><a href="portfolio.html" class="btn">View all my work</a></div>
+                <div class="button btn--sub col-md-4"><a href="about-me.html" class="btn">About Me</a></div>
+            </div>
         </div>
+        <div class="features container">
+            <div class="yelpcat feats__row row">
+                <h4 class="heading__features">YelpCat - <span class="heading__features--sub">A Yelp-like clone for animal adoption</span></h4>
+                <div class="app-about__heading col-md-6">
+                <p class="about-app">I started making this app because I love animals and am not completely happy with the adoption sites out there. This is just the framework and is a passion project/work-in progress. UI is just the framework. <span class="note">*note, this is on the free tier of Heroku and may take a bit longer to load as a result</span></p>
+                    <div class="yelpcat-btn btn"><a href="https://secret-tor-03211.herokuapp.com/" class="feat btn btn-outline" target="_blank">Check out YelpCat</a></div>
+                </div>
+                <div class="features__tools col"><span class="feats__title">Tools used:</span> 
+                    <ul class="features__tools-list">
+                        <li class="tools-list-items">Express/EJS</li>
+                        <li class="tools-list-items">MongoDB Atlas</li>
+                        <li class="tools-list-items">Javascript</li>
+                        <li class="tools-list-items">Heroku</li>
+                        <li class="tools-list-items">Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="features__feats col"><span class="feats__title">Features:</span> 
+                    <ul class="features__feats-list">
+                        <li class="feats-list-items">Templates</li>
+                        <li class="feats-list-items">CRUD</li>
+                        <li class="feats-list-items">Authentication</li>
+                        <li class="feats-list-items">Password Hash/Salting</li>
+                        <li class="feats-list-items">Image uploading</li>
+                        <li class="feats-list-items">Cluster mapping</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="saplants feats__row row">
+                <h4 class="heading__features">Saplants - <span class="heading__features--sub">A plant subscription box landing page demo</span></h4>
+                <div class="img col-md-6">
+                <p class="about-app">A demo page focused on visuals with basic funtion that uses pure SASS/CSS</p>
+                    <div class="saplants-btn btn"><a href="https://sloutrel.github.io/saplants/" class="feat btn btn-outline" target="_blank">Check out Saplants</a></div>
+                </div>
+                <div class="features__tools col"><span class="feats__title">Tools used:</span> 
+                    <ul class="features__tools-list">
+                        <li class="tools-list-items">SASS</li>
+                        <li class="tools-list-items">CSS</li>
+                        <li class="tools-list-items">HTML</li>
+                    </ul>
+                </div>
+                <div class="features__feats col"><span class="feats__title">Features:</span> 
+                    <ul class="features__feats-list">
+                        <li class="feats-list-items">Animations</li>
+                        <li class="feats-list-items">Gradients</li>
+                        <li class="feats-list-items">Background videos</li>
+                        <li class="feats-list-items">Popups and forms</li>
+                        <li class="feats-list-items">Responsive design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mtg feats__row row">
+                <h4 class="heading__features">Magic the Gathering score keeper - <span class="heading__features--sub">A score keeper for MtG</span></h4>
+                <div class="img col-md-6">
+                <p class="about-app">This app was created because I found it cumbersome to play the game using the standard 3-sided die to count lives.</p>
+
+                    <div class="mtg-btn btn"><a href="https://sloutrel.github.io/magic-react/" class="feat btn btn-outline" target="_blank">Check out the app</a></div>
+                </div>
+                <div class="features__tools col"><span class="feats__title">Tools used:</span> 
+                    <ul class="features__tools-list">
+                        <li class="tools-list-items">React</li>
+                        <li class="tools-list-items">Javascript</li>
+                        <li class="tools-list-items">Google Fonts</li>
+                        <li class="tools-list-items">Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="features__feats col"><span class="feats__title">Features:</span> 
+                    <ul class="features__feats-list">
+                        <li class="feats-list-items">Multiple players</li>
+                        <li class="feats-list-items">Starting life selector</li>
+                        <li class="feats-list-items">Unique winning and losing quotes</li>
+                        <li class="feats-list-items">Keep playing until all lose</li>
+                    </ul>
+                </div>
+            </div>
+      
     </div>
-    <div class="container-fluid content-row cardrow">
-        <div class="row" id="card_container">
-        </div>
-    </div> 
+    </main>
     <footer class="footer">
         <p>Copyright &copy; Sarah Loutrel 2021</p>
     </footer>
-</main>
         <script src="app.js"></script>
         <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -72,17 +143,11 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"
       ></script>
-        <script>
-            $(function () {
-              $(document).scroll(function () {
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-              });
-            });
-          </script>
-          <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-          <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
         <script src="cards.js"></script>
+        <script src="cards-2.js"></script>
 </body>
 
 </html>

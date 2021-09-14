@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6409cbf56e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cards.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand sticky-top navbar-light" id="mainNavbar">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-me.html">About Me</a>
+                    </li>
+                    <li class=nav-item"><a href="https://www.linkedin.com/in/sloutrel" target="_blank"><i
+                            class="fab icon fa-linkedin nav-link"></i></a>
+                    </li>
+                    <li class=nav-item"><a href="https://github.com/sloutrel" target="_blank"><i
+                            class="fab icon fa-github nav-link"></i></a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <h1>Portfolio <span class="heading__sub">All projects</span></h1>
+        <p class="header__content">Projects range from large to small - using Javascript, React, Express, MongoDB, SASS, and more.</p>
+    </header>   
+    <main>
+        <div class="container-fluid content-row cardrow">
+            <div class="row" id="card_container"></div>
+        </div> 
+    </main>
+    <footer class="footer">
+        <p>Copyright &copy; Sarah Loutrel 2021</p>
+    </footer>
+
+        <script src="app.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
+      ></script>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="cards.js"></script>
+</body>
+
+</html>
