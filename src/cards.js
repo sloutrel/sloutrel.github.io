@@ -149,7 +149,7 @@ const AppCard = (props) => {
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.text}</p>
           <div className="card-footer">
-            <a href={props.aRef} target="_blank" className="btn card-btn mtg">
+            <a href={props.aRef} target="_blank" className="btn card-btn">
               {props.button}
             </a>
           </div>

@@ -163,7 +163,7 @@ var AppCard = function AppCard(props) {
             {
               href: props.aRef,
               target: '_blank',
-              className: 'btn card-btn mtg',
+              className: 'btn card-btn',
             },
             props.button
           )
