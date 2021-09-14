@@ -4,8 +4,12 @@
   margin: 0 auto;
   padding: 0 3rem;
   margin-bottom: 2rem;
+  font-weight: 300;
 }
-
+.welcome{
+  font-weight: 600;
+  color: #585858;
+}
 .learning-categories{
   text-align: center;
   align-self: center;
