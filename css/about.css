@@ -6,6 +6,11 @@
   margin-bottom: 2rem;
   font-weight: 300;
 }
+.heading__secondary{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
 .welcome{
   font-weight: 600;
   color: #585858;
