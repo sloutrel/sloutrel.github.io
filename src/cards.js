@@ -42,6 +42,17 @@ const AppRender = () => {
         'https://seller.tcgplayer.com/media/2439/magic_media_slider_042018-2x.jpg',
     },
     {
+      id: 8.5,
+      alt: 'space invaders img',
+      title: 'Space Invaders Clone - Kaboom.js',
+      text: 'Only two levels stand between you and an alien invasion that would destroy earth...',
+      aRef: 'https://spaceinvade.sarahloulou.repl.co/',
+      button: 'Shoot the invaders',
+      image:
+        'https://cdn.pixabay.com/photo/2013/07/13/11/48/pixelgrafic-158720_960_720.png',
+    },
+
+    {
       id: 8,
       alt: 'expense-list img',
       title: 'Basic Expense List - React',
