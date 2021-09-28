@@ -22,7 +22,7 @@ class Particle {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.size = 2;
+    this.size = 1;
     this.baseX = this.x;
     this.baseY = this.y;
     this.density = Math.random() * 30 + 1;
@@ -30,7 +30,7 @@ class Particle {
   draw() {
     ctx.fillStyle = 'white';
     ctx.beginPath();
-    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 1.5);
     ctx.closePath();
     ctx.fill();
   }
@@ -63,7 +63,7 @@ class Particle {
 
 function init() {
   particleArray = [];
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 1250; i++) {
     let x = Math.random() * window.innerWidth;
     let y = Math.random() * window.innerHeight;
     particleArray.push(new Particle(x, y));
