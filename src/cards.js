@@ -44,7 +44,7 @@ const AppRender = () => {
     {
       id: 8.5,
       alt: 'space invaders img',
-      title: 'Space Invaders Clone - Kaboom.js',
+      title: 'Space Invaders Clone - Kaboom.js - mobile support WIP',
       text: 'Only two levels stand between you and an alien invasion that would destroy earth...',
       aRef: 'https://spaceinvade.sarahloulou.repl.co/',
       button: 'Shoot the invaders',
@@ -74,7 +74,7 @@ const AppRender = () => {
     {
       id: 6.5,
       alt: 'space img',
-      title: 'Particle Push - Canvas.API',
+      title: 'Particle Push - Canvas API - mobile support WIP',
       text: 'Take a trip with to the cosmos & watch the "stars" repel from you only to return when you leave.',
       aRef: 'https://sloutrel.github.io/canvas',
       button: 'To the moon!',
