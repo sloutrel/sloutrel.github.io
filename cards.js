@@ -54,13 +54,13 @@ var AppRender = function AppRender() {
     },
     {
       id: 8,
-      alt: 'expense-list img',
-      title: 'Basic Expense List - React',
-      text: 'Have you spent your money on too much rent? Is your boba habit getting out of control?',
-      aRef: 'https://sloutrel.github.io/expense-list',
-      button: 'See the damage.',
+      alt: 'task list img',
+      title: 'Task List - React',
+      text: 'Have you always wanted to be a Taskmaster? Unleash your inner type-A, micromanger self today!',
+      aRef: 'https://sloutrel.github.io/task-list',
+      button: 'Task me up, baby!',
       image:
-        'https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80',
+        'https://images.unsplash.com/photo-1536860484431-7615d914eac1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
     },
     {
       id: 7,
@@ -73,14 +73,24 @@ var AppRender = function AppRender() {
         'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80',
     },
     {
-      id: 6,
-      alt: 'task list img',
-      title: 'Task List - React',
-      text: 'Have you always wanted to be a Taskmaster? Unleash your inner type-A, micromanger self today!',
-      aRef: 'https://sloutrel.github.io/task-list',
-      button: 'Task me up, baby!',
+      id: 6.5,
+      alt: 'space img',
+      title: 'Particle Push - Canvas.API',
+      text: 'Take a trip with to the cosmos & watch the "stars" repel from you only to return when you leave.',
+      aRef: 'https://sloutrel.github.io/canvas',
+      button: 'To the moon!',
       image:
-        'https://images.unsplash.com/photo-1536860484431-7615d914eac1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+        'https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=850&q=80',
+    },
+    {
+      id: 6,
+      alt: 'expense-list img',
+      title: 'Basic Expense List - React',
+      text: 'Have you spent your money on too much rent? Is your boba habit getting out of control?',
+      aRef: 'https://sloutrel.github.io/expense-list',
+      button: 'See the damage.',
+      image:
+        'https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80',
     },
     {
       id: 5,
