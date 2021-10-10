@@ -82,9 +82,19 @@ const AppRender = () => {
         'https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=850&q=80',
     },
     {
+      id: 6.1,
+      alt: 'meet img',
+      title: 'Meetup Board - Next.js & MongoDB Atlas',
+      text: 'Post a meetup and wait for new friends to come to YOU! Ability to update / remove in progress',
+      aRef: 'https://meetup-sloutrel.vercel.app/',
+      button: 'Play nice.',
+      image:
+        'https://images.unsplash.com/photo-1621112904887-419379ce6824?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80',
+    },
+    {
       id: 6,
       alt: 'expense-list img',
-      title: 'Basic Expense List - React',
+      title: 'Basic Expense List - React / CSS',
       text: 'Have you spent your money on too much rent? Is your boba habit getting out of control?',
       aRef: 'https://sloutrel.github.io/expense-list',
       button: 'See the damage.',
