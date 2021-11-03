@@ -42,9 +42,19 @@ const AppRender = () => {
         'https://seller.tcgplayer.com/media/2439/magic_media_slider_042018-2x.jpg',
     },
     {
+      id: 8.6,
+      alt: 'climate change api',
+      title: 'Climate Change News API - Express / Axios',
+      text: "Don't be a climate change denier! Stay in the know & stop buying plastic water bottles!",
+      aRef: 'https://rapidapi.com/sloutrel/api/climate-change-news37/',
+      button: 'Save us Captain Planet',
+      image:
+        'https://images.unsplash.com/photo-1552799446-159ba9523315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+    },
+    {
       id: 8.5,
       alt: 'space invaders img',
-      title: 'Space Invaders Clone - Kaboom.js - mobile support WIP',
+      title: 'Space Invaders Clone - Kaboom.js - mobile WIP',
       text: 'Only two levels stand between you and an alien invasion that would destroy earth...',
       aRef: 'https://spaceinvade.sarahloulou.repl.co/',
       button: 'Shoot the invaders',
@@ -54,7 +64,7 @@ const AppRender = () => {
     {
       id: 8,
       alt: 'task list img',
-      title: 'Task List - React',
+      title: 'Simple Task List - React / CSS',
       text: 'Have you always wanted to be a Taskmaster? Unleash your inner type-A, micromanger self today!',
       aRef: 'https://sloutrel.github.io/task-list',
       button: 'Task me up, baby!',
@@ -64,7 +74,7 @@ const AppRender = () => {
     {
       id: 7,
       alt: 'task list img',
-      title: 'Task List - VanillaJS / CSS',
+      title: 'Simple Task List - VanillaJS / CSS',
       text: "Is life getting too crazy? Don't worry about it! Just add it to a list & everything will be okay.",
       aRef: 'https://sloutrel.github.io/todo',
       button: "Let's get to Listin'",
@@ -104,8 +114,8 @@ const AppRender = () => {
     {
       id: 5,
       alt: 'cat img',
-      title: 'Museum of Cats - Bootstrap',
-      text: 'Come look at some meow-sterpieces at the meow-seum.',
+      title: 'Museum of Cats - Bootstrap / CSS',
+      text: 'A visual celebration of all things cats. Come look at some meow-sterpieces at the meow-seum.',
       aRef: 'https://sloutrel.github.io/museum-of-cats',
       button: 'Meow',
       image:
