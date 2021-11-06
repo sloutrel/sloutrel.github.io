@@ -131,13 +131,12 @@ var AppRender = function AppRender() {
     image: 'https://miro.medium.com/max/6000/1*9KGea1STTglY4ZqVHvTAfg.png'
   }];
 
-  console.log(appData[0].title);
   var allApps = appData.map(function (app) {
     return React.createElement(AppCard, {
       id: app.id,
       key: app.id,
       title: app.title,
-      alt: app.src,
+      alt: app.alt,
       image: app.image,
       aRef: app.aRef,
       text: app.text,
@@ -159,7 +158,7 @@ var AppCard = function AppCard(props) {
         'div',
         { className: 'card-body' },
         React.createElement(
-          'h5',
+          'h2',
           { className: 'card-title' },
           props.title
         ),
@@ -173,7 +172,12 @@ var AppCard = function AppCard(props) {
           { className: 'card-footer' },
           React.createElement(
             'a',
-            { href: props.aRef, target: '_blank', className: 'btn card-btn' },
+            {
+              href: props.aRef,
+              target: '_blank',
+              rel: 'noopener noreferrer',
+              className: 'btn card-btn'
+            },
             props.button
           )
         )
@@ -183,4 +187,7 @@ var AppCard = function AppCard(props) {
 };
 
 var domContainer = document.querySelector('#card_container');
-ReactDOM.render(React.createElement(AppRender, null), domContainer);
+
+if (domContainer) {
+  ReactDOM.render(React.createElement(AppRender, null), domContainer);
+}

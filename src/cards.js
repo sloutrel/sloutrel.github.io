@@ -162,14 +162,13 @@ const AppRender = () => {
     },
   ];
 
-  console.log(appData[0].title);
   let allApps = appData.map((app) => {
     return (
       <AppCard
         id={app.id}
         key={app.id}
         title={app.title}
-        alt={app.src}
+        alt={app.alt}
         image={app.image}
         aRef={app.aRef}
         text={app.text}
@@ -186,10 +185,15 @@ const AppCard = (props) => {
       <div className="card mx-auto" style={{ width: '18rem' }}>
         <img src={props.image} className="card-img-top" alt={props.alt} />
         <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
+          <h2 className="card-title">{props.title}</h2>
           <p className="card-text">{props.text}</p>
           <div className="card-footer">
-            <a href={props.aRef} target="_blank" className="btn card-btn">
+            <a
+              href={props.aRef}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn card-btn"
+            >
               {props.button}
             </a>
           </div>
@@ -200,4 +204,7 @@ const AppCard = (props) => {
 };
 
 let domContainer = document.querySelector('#card_container');
-ReactDOM.render(<AppRender />, domContainer);
+
+if (domContainer) {
+  ReactDOM.render(<AppRender />, domContainer);
+}

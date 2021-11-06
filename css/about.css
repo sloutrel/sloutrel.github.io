@@ -1,91 +1,91 @@
 /* ABOUT MAIN */
-.header__content{
+.header__content {
   width: 75vw;
   margin: 0 auto;
   padding: 0 3rem;
   margin-bottom: 2rem;
   font-weight: 300;
 }
-.heading__secondary{
+.heading__secondary {
   text-align: center;
   text-transform: uppercase;
   padding-top: 2rem;
 }
-.welcome{
+.welcome {
   font-weight: 600;
   color: #585858;
 }
-.learning-categories{
+.learning-categories {
   text-align: center;
   align-self: center;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 1.2rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
-.learning-container{
+.learning-container {
   margin-bottom: 3rem;
   justify-content: space-between;
 }
-.list{
+.list {
   text-align: center;
   transition: all 2s;
 }
-.trophies{
+.trophies {
   font-size: 1.25rem;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
-.trophies-container{
+.trophies-container {
   display: flexbox;
   text-align: center;
   padding: 2rem 0;
   background-color: #cccccc99;
 }
 
-.list-item:not(:last-child){
+.list-item:not(:last-child) {
   border-bottom: 1px solid #ccc;
   margin-bottom: 1rem;
 }
-.list-item:last-child{
+.list-item:last-child {
   border-bottom: 1px solid transparent;
   margin-bottom: 1rem;
 }
-.card{
+.card {
   padding: 0 1.5rem;
-  margin: .75rem;
+  margin: 0.75rem;
 }
 .list a:link,
-.list a:visited{
+.list a:visited {
   text-decoration: none;
   color: #585858;
   font-weight: 300;
 }
 .list a:hover,
-.list a:active{
+.list a:active {
   text-decoration: none;
-  color: #3bbbb1;
+  color: #40c9bd80;
   font-weight: 500;
   /* font-size: 1.1rem; */
 }
-.list-item:hover{
+.list-item:hover {
   border-bottom: 3px solid #585858;
   margin-bottom: 1rem;
 }
-.trophies-list{
+.trophies-list {
   padding-top: 1rem;
   line-height: 2rem;
 }
 .trophies-list a:link,
-.trophies-list a:visited{
+.trophies-list a:visited {
   text-decoration: none;
   color: #585858;
   font-weight: 400;
   text-transform: uppercase;
 }
 .trophies-list a:hover,
-.trophies-list a:active{
+.trophies-list a:active {
   text-decoration: none;
   color: #000;
   border-bottom: 3px solid #f7c56c;
