@@ -22,7 +22,7 @@ const AppRender = () => {
         'https://images.unsplash.com/photo-1599060114289-1f072c1e9b79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
     },
     {
-      id: 10,
+      id: 10.5,
       alt: 'Magic the gathering img',
       title: 'Magic the Gathering Score Keeper - React',
       text: 'New and enhanced. Fight until only you survive. Still without that pesky 20 sided die.',
@@ -31,18 +31,9 @@ const AppRender = () => {
       image:
         'https://www.cruiseplanners.com/static/imago/5556/magic_banner-1000x2821.jpg',
     },
+
     {
-      id: 9,
-      alt: 'magic the gathering img',
-      title: 'Magic the Gathering Score Keeper - VanillaJS',
-      text: 'Choose your life count and keep score easily without that pesky 20 sided die.',
-      aRef: 'https://sloutrel.github.io/magic',
-      button: 'Go keep some scores',
-      image:
-        'https://seller.tcgplayer.com/media/2439/magic_media_slider_042018-2x.jpg',
-    },
-    {
-      id: 8.6,
+      id: 10,
       alt: 'climate change api',
       title: 'Climate Change News API - Express / Axios',
       text: "Don't be a climate change denier! Stay in the know & stop buying plastic water bottles!",
@@ -50,6 +41,27 @@ const AppRender = () => {
       button: 'Save us Captain Planet',
       image:
         'https://images.unsplash.com/photo-1552799446-159ba9523315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+    },
+
+    {
+      id: 9.5,
+      alt: 'tarot img',
+      title: 'Tarot Card Viewer - React /CSS',
+      text: 'Learn all about Arcana so you can stop paying $200 a reading and start doing it your self.',
+      aRef: 'https://sloutrel.github.io/tarot-cards',
+      button: 'Take me to Tarot!',
+      image:
+        'https://images.unsplash.com/photo-1627764574958-fb54cd7d7448?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80',
+    },
+    {
+      id: 9,
+      alt: 'meet img',
+      title: 'Meetup Board - Next.js & MongoDB Atlas',
+      text: 'Post a meetup and wait for new friends to come to YOU! Ability to update / remove in progress.',
+      aRef: 'https://meetup-sloutrel.vercel.app/',
+      button: 'Play nice.',
+      image:
+        'https://images.unsplash.com/photo-1621112904887-419379ce6824?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80',
     },
     {
       id: 8.5,
@@ -63,26 +75,6 @@ const AppRender = () => {
     },
     {
       id: 8,
-      alt: 'task list img',
-      title: 'Simple Task List - React / CSS',
-      text: 'Have you always wanted to be a Taskmaster? Unleash your inner type-A, micromanger self today!',
-      aRef: 'https://sloutrel.github.io/task-list',
-      button: 'Task me up, baby!',
-      image:
-        'https://images.unsplash.com/photo-1536860484431-7615d914eac1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
-    },
-    {
-      id: 7,
-      alt: 'task list img',
-      title: 'Simple Task List - VanillaJS / CSS',
-      text: "Is life getting too crazy? Don't worry about it! Just add it to a list & everything will be okay.",
-      aRef: 'https://sloutrel.github.io/todo',
-      button: "Let's get to Listin'",
-      image:
-        'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80',
-    },
-    {
-      id: 6.5,
       alt: 'space img',
       title: 'Particle Push - Canvas API - mobile support WIP',
       text: 'Take a trip with to the cosmos & watch the "stars" repel from you only to return when you leave.',
@@ -92,14 +84,34 @@ const AppRender = () => {
         'https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=850&q=80',
     },
     {
-      id: 6.1,
-      alt: 'meet img',
-      title: 'Meetup Board - Next.js & MongoDB Atlas',
-      text: 'Post a meetup and wait for new friends to come to YOU! Ability to update / remove in progress',
-      aRef: 'https://meetup-sloutrel.vercel.app/',
-      button: 'Play nice.',
+      id: 7,
+      alt: 'task list img',
+      title: 'Simple Task List - React / CSS',
+      text: 'Have you always wanted to be a Taskmaster? Unleash your inner type-A, micromanger self today!',
+      aRef: 'https://sloutrel.github.io/task-list',
+      button: 'Task me up, baby!',
       image:
-        'https://images.unsplash.com/photo-1621112904887-419379ce6824?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80',
+        'https://images.unsplash.com/photo-1536860484431-7615d914eac1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+    },
+    {
+      id: 6.5,
+      alt: 'task list img',
+      title: 'Simple Task List - VanillaJS / CSS',
+      text: "Is life getting too crazy? Don't worry about it! Just add it to a list & everything will be okay.",
+      aRef: 'https://sloutrel.github.io/todo',
+      button: "Let's get to Listin'",
+      image:
+        'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80',
+    },
+    {
+      id: 6.1,
+      alt: 'magic the gathering img',
+      title: 'Magic the Gathering Score Keeper - VanillaJS',
+      text: 'Choose your life count and keep score easily without that pesky 20 sided die.',
+      aRef: 'https://sloutrel.github.io/magic',
+      button: 'Go keep some scores',
+      image:
+        'https://seller.tcgplayer.com/media/2439/magic_media_slider_042018-2x.jpg',
     },
     {
       id: 6,
