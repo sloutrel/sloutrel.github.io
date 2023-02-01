@@ -2,6 +2,14 @@
 
 var AppRender = function AppRender() {
   var appData = [{
+    id: 13,
+    alt: 'Paint Palette img',
+    title: 'Color Palette Creator - React w/localstorage',
+    text: 'Why not skip the trip to the paint store and make your own swatches instead!',
+    aRef: 'https://sloutrel.github.io/color-palette',
+    button: 'Time to get swatching!',
+    image: 'https://images.unsplash.com/photo-1608556984704-fa578c96e6eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80'
+  }, {
     id: 12,
     alt: 'Animal img',
     title: 'YelpCat - ExpressJS w/Authentication',
