@@ -18,6 +18,14 @@ var AppRender = function AppRender() {
     button: 'Adopt a fur baby today!',
     image: 'https://images.unsplash.com/photo-1508675801627-066ac4346a61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=745&q=80'
   }, {
+    id: 11.5,
+    alt: 'Magic the Gathering img',
+    title: 'MTG Score Keeper - Typescript/React',
+    text: 'Back at it and better than ever! Keep fighting until only you survive, also no D20s.',
+    aRef: 'https://sloutrel.github.io/magic-ts',
+    button: 'Join the Gathering!',
+    image: 'https://images.unsplash.com/photo-1593814681464-eef5af2b0628?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+  }, {
     id: 11,
     alt: 'Plant img',
     title: 'Saplants Landing Page - Pure CSS/SASS',
