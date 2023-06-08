@@ -2,7 +2,7 @@
 
 var AppRender = function AppRender() {
   var appData = [{
-    id: 13,
+    id: 16,
     alt: 'Paint Palette img',
     title: 'Color Palette Creator - React w/localstorage',
     text: 'Why not skip the trip to the paint store and make your own swatches instead!',
@@ -10,7 +10,7 @@ var AppRender = function AppRender() {
     button: 'Time to get swatching!',
     image: 'https://images.unsplash.com/photo-1608556984704-fa578c96e6eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80'
   }, {
-    id: 12,
+    id: 15,
     alt: 'Animal img',
     title: 'YelpCat - ExpressJS w/Authentication',
     text: 'Need that 6th cat AND despise kitty mills? Join YelpCat, a Yelp-like clone for pet adoption!',
@@ -18,7 +18,15 @@ var AppRender = function AppRender() {
     button: 'Adopt a fur baby today!',
     image: 'https://images.unsplash.com/photo-1508675801627-066ac4346a61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=745&q=80'
   }, {
-    id: 11.5,
+    id: 14,
+    alt: 'Marvel Comic Closet',
+    title: 'Marvel Comic Closet - Typescript/React/Next',
+    text: "You don't need Dr.Strange's help to be transported to the Marvel Universe anymore! ",
+    aRef: 'https://marvel-comic-app-seven.vercel.app/',
+    button: 'Open the Comic Closet!',
+    image: 'https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'
+  }, {
+    id: 13,
     alt: 'Magic the Gathering img',
     title: 'MTG Score Keeper - Typescript/React',
     text: 'Back at it and better than ever! Keep fighting until only you survive, also no D20s.',
@@ -26,7 +34,7 @@ var AppRender = function AppRender() {
     button: 'Join the Gathering!',
     image: 'https://images.unsplash.com/photo-1593814681464-eef5af2b0628?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
   }, {
-    id: 11,
+    id: 12,
     alt: 'Plant img',
     title: 'Saplants Landing Page - Pure CSS/SASS',
     text: 'Channel your inner plant daddy and order your box of plants today! No delivery guarantees.',
@@ -34,7 +42,7 @@ var AppRender = function AppRender() {
     button: 'For the environment!',
     image: 'https://images.unsplash.com/photo-1599060114289-1f072c1e9b79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
   }, {
-    id: 10.5,
+    id: 11,
     alt: 'Magic the gathering img',
     title: 'Magic the Gathering Score Keeper - React',
     text: 'New and enhanced. Fight until only you survive. Still without that pesky 20 sided die.',
